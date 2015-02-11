@@ -3,7 +3,7 @@ jQuery(document).ready(function($) {
 
  $('#socialmedia-container').clone().appendTo('#header .inside');
 
- var projectNav = '<ul id="filterNav" class="clearfix">'
+/* var projectNav = '<ul id="filterNav" class="clearfix">'
                 + '<li class="segment-0"><a href="#" data-filter="*" class="selected">All</a></li>'
                 + '<li><a href="#" data-filter=".branding">Branding</a></li>'
                 + '<li><a href="#" data-filter=".commercial">Commercial</a></li>'
@@ -11,7 +11,7 @@ jQuery(document).ready(function($) {
                 + '<li><a href="#" data-filter=".illustration">Illustration</a></li>'
                 +  '</ul>';
 
-$(projectNav).prependTo('#homeProjects');
+ $(projectNav).prependTo('#homeProjects');
 
 	jQuery('#filterNav a').click(function(){
 		var projectType = jQuery(this).attr('data-filter');	
@@ -30,6 +30,6 @@ $(projectNav).prependTo('#homeProjects');
 		}
 		
 		return false;
-	});
+	}); */
 
 });
